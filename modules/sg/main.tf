@@ -1,4 +1,4 @@
-resource "aws_security_group" "sg" {
+resource "aws_security_group" "sg1" {
   name = "${var.project_name2}-sg"
   description = "security group of app server"
 
