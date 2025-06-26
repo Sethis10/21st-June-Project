@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg1" {
-  name = "${var.project_name2}-sg"
+  name = "${var.project_name2}-sg1"
   description = "security group of app server"
 
   ingress {
